@@ -10,18 +10,26 @@ Don't worry, we won't be grading your work, submitting is merely to help you get
 
 Whenever you have made a change that you wish to keep, you'll make a git commit.
 
-Open up 'terminal-questions.txt' using `code` and answer the three questions.
+Open up 'terminal-questions.txt' using `code` and answer the questions.
 
 When you've done so, add a commit with the message "part 1 done!"
 
-Be sure to use that commit message, as the check script will look for it.
+Run `python check.py 1` to check that your commit exists and is correct.
 
-## Part 2 - Making & Reverting Changes
+## Part 2 - Making & Reverting Changes with `git revert`
 
 Open up the file 'part2.txt' and make the modifications it describes. (Do not commit them yet!)
 
-Run the command `python3 part2.py` which will verify that these changes are made.
+Run the command `python3 check.py 2` which will verify that these changes are made.
 
-Once you've run this command, revert the changes and run `part2.py` again.
+Once you've run this command, revert the changes and run `python3 check.py 2` again.
 
-## Part 3 -
+## Part 3 - Viewing Changes with `git diff`
+
+Run the command `python3 part3.py` this will make some changes to your local files, but will not commit them. (Do not commit them either!)
+
+Then take a look at these changes with `git diff`, open up part3.txt and answer the questions based on the changes you see.
+
+## Part 4 - Submitting to Gradescope
+
+TODO: walk through gradescope submission

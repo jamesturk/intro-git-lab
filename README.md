@@ -14,7 +14,7 @@ Open up 'part1.txt' using `code` and answer the questions.
 
 When you've done so, add a commit with the message "part 1 done!"
 
-Run `python check.py 1` to check that your commit exists and is correct.
+Run `python3 check.py 1` to check that your commit exists and is correct.
 
 ## Part 2 - Making & Reverting Changes with `git revert`
 

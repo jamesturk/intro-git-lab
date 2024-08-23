@@ -16,7 +16,7 @@ def check_git_output(command, contains):
 def check_status_clean():
     if not check_git_output("status", "nothing to commit, working tree clean"):
         print(
-            "Ensure that you have committed or reverted any changes before running, run `git status` to check."
+            "Ensure that you have committed or  any changes before running, run `git status` to check."
         )
         return False
     return True
@@ -47,7 +47,7 @@ def check_part2():
             )
         else:
             print(
-                "OK, I've observed your change. Go ahead and revert it now using `git revert`"
+                "OK, I've observed your change. Go ahead and undo it now using `git restore`"
             )
             with open(HIDDEN_FILE, "w") as f:
                 f.write(":)")

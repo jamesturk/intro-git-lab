@@ -16,13 +16,13 @@ When you've done so, add a commit with the message "part 1 done!"
 
 Run `python3 check.py 1` to check that your commit exists and is correct.
 
-## Part 2 - Making & Reverting Changes with `git revert`
+## Part 2 - Making & Reverting Changes with `git restore`
 
 Open up the file 'part2.txt' and make the modifications it describes. (Do not commit them yet!)
 
 Run the command `python3 check.py 2` which will verify that these changes are made.
 
-Once you've run this command, revert the changes and run `python3 check.py 2` again.
+Once you've run this command, undo the changes using git restore and run `python3 check.py 2` again.
 
 ## Part 3 - Viewing Changes with `git diff`
 

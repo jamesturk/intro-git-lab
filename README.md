@@ -43,9 +43,16 @@ Once you find it, you can use `git show <hash-id>` to show what changed in that 
 
 **Tip:** If you are typing hashes instead of copying & pasting, you can type the first 4-5 characters instead of the entire thing.
 
-Use `git log` and `git show`
+Use `git log` and `git show` to discover what used to be in the 'secret' file and add this text to part4.txt. You may use `python3 check.py 4` to confirm.
 
-You can also try this using the GitHub interface.
-Which offers an alternative interface to view the log.
+You can also try this using the GitHub interface which offers an alternative interface to view the log:
 
 ![](readme-screenshot.png)
+
+### A Note About Secrets
+
+Consider what part 4 means for actual secrets, such as a password or other sensitive information.
+
+It is difficult to _actually remove_ sensitive information from a published Git repository.
+
+For this reason, be sure to avoid committing passwords or other information that you wouldn't want someone to see.

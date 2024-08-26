@@ -56,7 +56,7 @@ def check_part2():
 def check_part4():
     part4_text = pathlib.Path("part4.txt").read_text()
     if "snowfall" not in part4_text:
-        print("Be sure to add the secret word to part4.txt")
+        print("Be sure to add the secret word to part4.txt.")
     else:
         print("Great job, all done!")
 

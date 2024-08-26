@@ -36,4 +36,16 @@ Be sure to commit your changes! There is no `check.py` step for this part.
 
 The answer to part 4 is in the git history. Use `git log` to find the commit in question.
 
+You'll see that each commit has a hash, like 'de8e74bc2c3ec106554440021efd1ec6808486c2'.
+These uniquely identify each commit.
+
+Once you find it, you can use `git show <hash-id>` to show what changed in that commit.
+
+**Tip:** If you are typing hashes instead of copying & pasting, you can type the first 4-5 characters instead of the entire thing.
+
+Use `git log` and `git show`
+
 You can also try this using the GitHub interface.
+Which offers an alternative interface to view the log.
+
+![](readme-screenshot.png)

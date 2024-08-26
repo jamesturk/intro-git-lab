@@ -32,6 +32,8 @@ Then take a look at these changes with `git diff`, open up part3.txt and answer 
 
 Be sure to commit your changes! There is no `check.py` step for this part.
 
-## Part 4 - Submitting to Gradescope
+## Part 4 - Finding a Change in the `git log`
 
-TODO: walk through gradescope submission
+The answer to part 4 is in the git history. Use `git log` to find the commit in question.
+
+You can also try this using the GitHub interface.

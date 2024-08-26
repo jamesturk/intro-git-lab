@@ -53,6 +53,14 @@ def check_part2():
                 f.write(":)")
 
 
+def check_part4():
+    part4_text = pathlib.Path("part4.txt").read_text()
+    if "snowfall" not in part4_text:
+        print("Be sure to add the secret word to part4.txt")
+    else:
+        print("Great job, all done!")
+
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print(
@@ -63,4 +71,6 @@ if __name__ == "__main__":
     elif sys.argv[1] == "2":
         check_part2()
     elif sys.argv[1] == "3":
-        check_part3()
+        print("There is no automated checking for part 3.")
+    elif sys.argv[1] == "4":
+        check_part4()
